@@ -54,6 +54,8 @@ p {
   margin: 0 auto;
 }
 
+
+
 .buttons{
   
   border-radius: 40px;
@@ -66,9 +68,7 @@ p {
   line-height: 35px ;
   background-color: white;
   padding: 0 15px 0 15px;
-  
-  font-size: medium
-  ;
+  font-size: medium;
   
 }
 
@@ -86,8 +86,14 @@ p {
 
 /* ID */
 
+#middle-sec{
+  padding: 100px 0 200px 0 ;
+  
+
+}
 
 #spc-between{
+  
 
   justify-content: space-between;
 }
@@ -113,12 +119,11 @@ p {
   
 }
 
+
 #icon-space{margin-right: 20px;}
 
 
 /*classi header*/
-
-
 
 
 header{
@@ -150,10 +155,6 @@ nav.menu{width: 40%;}
 
 section {
   padding: 100px 0 200px 0;
-}
-
-section.fourth{
-  padding: 100px;
 }
 
 section.section-flexing{
