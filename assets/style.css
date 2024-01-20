@@ -1,7 +1,10 @@
+
+ /*classi principali */
+
 * {
 
   box-sizing: border-box;
-  margin: 0 ;
+  margin: 0 auto;
   padding: 0 ;
   text-decoration: none;
   list-style: none;
@@ -9,43 +12,37 @@
 
 }
 
-
-a {
+a { 
   color: white;
+  font-size: large;
 }
-
 
 button{border: 0px;}
 
-
-
 h1{
 
-  margin-top: 100px;
-  margin-bottom: 70px;
+  margin-top: 80px;
+  margin-bottom: 50px;
   color: white;
-  font-size: 60px;
+  font-size: 70px;
   
 }
-
 
 h2 {
   font-size: 40px;
   margin-bottom: 40px;
 }
 
-
 h3{
   font-size: 30px;
   margin-bottom: 40px;
 }
 
-
 p {
-  line-height: 25px;
-  font-size: large;
-}
 
+  line-height: 35px;
+  font-size: x-large;
+}
 
 .flexing{
   display: flex;
@@ -68,22 +65,31 @@ p {
   height: 35px;
   line-height: 35px ;
   background-color: white;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 0 15px 0 15px;
+  
+  font-size: medium
   ;
   
 }
 
-
 .buttons.big{
-  height: 51.5px;
-  line-height: 51.5px ;
+  height: 60px;
+  line-height: 60px ;
   background-color: white;
-  font-size: medium;
-  padding-left: 20px;
-  padding-right: 20px;
+  font-size: large;
+  padding: 0 25px 0 25px ;
+
+}
+
+.alternative-bg{background-color: #F6F6F6;}
 
 
+/* ID */
+
+
+#spc-between{
+
+  justify-content: space-between;
 }
 
 #shark{
@@ -100,18 +106,20 @@ p {
 
 #lavander-text {color:#8ea1e1 ;}
 
-
 #ita{
-  height: 20px;
-  width: 30px;
+  height: 7%;
+  width: 7%;
   margin-right: 10px;
-  margin-left: 10px;
+  
 }
-
 
 #icon-space{margin-right: 20px;}
 
-.alternative-bg{background-color: #F6F6F6;}
+
+/*classi header*/
+
+
+
 
 header{
   
@@ -121,61 +129,46 @@ background-repeat: no-repeat;
 background-size: cover;
 color: white;
 text-align: center;
-padding-top: 15px;
-height:680px ;
+padding: 15px 0 210px;
+
+
 }
 
 header p {
 
-  font-size: large;
-  margin-bottom: 40px;
-  
-}
-
-.menu{width: 40%;}
-
-.topbar-flexing{
-  justify-content: space-between;
-  align-items: center;
- 
-}
-
-
-.second-footer-flexing{
-  justify-content: space-between;
+margin-bottom: 40px;
 
 }
+
+nav.menu{width: 40%;}
+
+.topbar-flexing{align-items: center;}
+
+
+/*classi section*/
 
 
 section {
- padding-top: 100px;
-padding-bottom: 200px;
+  padding: 100px 0 200px 0;
 }
 
-section.third{
-  height: 720px;
-}
-
-section.fifth{
-  height: 1100px;
+section.fourth{
   padding: 100px;
 }
 
-section.right > img{margin-right: 50px ;}
-section.left > img{margin-left: 50px ;}
-
-.section-flexing{
+section.section-flexing{
  justify-content: center;
  align-items: center;
 
 }
 
-.last-section{
+section.last-section{
   flex-direction: column;
   align-items: center;
 
-  
 }
+
+/*classi footer*/
 
 
 footer{
@@ -187,20 +180,11 @@ background-color: #23272a;
 
 }
 
+ul.big-list{flex-grow: 2;}
 
-.big-list{
-  flex-grow: 2;
-}
+ul.small-list{flex-grow: 1;}
 
-
-.small-list{
-  flex-grow: 1;
-
-}
-
-
-
-.top-footer{
+div.top-footer{
   padding-bottom: 30px;
   border-bottom: solid 2px #8ea1e1;
   margin-bottom: 20px;
