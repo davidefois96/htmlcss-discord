@@ -4,7 +4,7 @@
 * {
 
   box-sizing: border-box;
-  margin: 0 auto;
+  margin: 0 ;
   padding: 0 ;
   text-decoration: none;
   list-style: none;
@@ -17,7 +17,6 @@ a {
   font-size: large;
 }
 
-button{border: 0px;}
 
 h1{
 
@@ -57,7 +56,7 @@ p {
 
 
 .buttons{
-  
+  border: 0;
   border-radius: 40px;
   text-align: center;
   
@@ -86,17 +85,10 @@ p {
 
 /* ID */
 
-#middle-sec{
-  padding: 100px 0 200px 0 ;
-  
 
-}
+#spc-between{ justify-content: space-between;}
 
-#spc-between{
-  
-
-  justify-content: space-between;
-}
+#spc-around{justify-content: space-around;}
 
 #shark{
   background-color: #23272a;
@@ -159,7 +151,7 @@ section {
 
 section.section-flexing{
  justify-content: center;
- align-items: center;
+ 
 
 }
 
@@ -170,7 +162,6 @@ section.last-section{
 }
 
 /*classi footer*/
-
 
 footer{
 
