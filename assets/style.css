@@ -121,7 +121,6 @@ p {
 header{
   
 background-image: url(./img/jumbo.png);
-background-size: contain;
 background-repeat: no-repeat;
 background-size: cover;
 color: white;
